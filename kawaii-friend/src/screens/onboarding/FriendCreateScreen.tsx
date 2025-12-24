@@ -30,6 +30,9 @@ export default function FriendCreateScreen() {
           friendName: name.trim(),
           friendState: DEFAULT_STATE,
           lastInteraction: serverTimestamp(),
+          happinessScore: 50,
+          level: 1,
+          notificationsEnabled: true,
         },
         { merge: true }
       );
